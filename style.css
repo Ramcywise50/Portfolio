@@ -1,0 +1,72 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+
+/*mobile styling*/
+@media (min-width:375px) and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .logo p{
+        font-size: 25px;
+        font-weight: bold;
+        color: #36B37E;
+    }
+    .hambuger{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .hambuger p{
+        padding: 1px 15px;
+        background-color: black;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 120px 5px 5px 5px;
+        background-image: url(./assets/images/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+       }
+       .intro_heading{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        color: #172B4D;
+        margin-top: 50px;
+       }
+       .intro_heading span{
+        color: #36B37E;
+       }
+       .intro_paragraph p{
+        text-align: center;
+        font-size: 28px;
+        color: #172B4D;
+        padding: 15px 5px;
+        margin: 10px 2px;
+      }
+      .social_icons ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .social_icons li{
+        list-style: none;
+    }
+    .scroll{
+        margin-top: 50px;
+    }
+}
